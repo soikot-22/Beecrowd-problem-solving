@@ -4,7 +4,7 @@ int main(){
     int t;
     while(cin >> t){
         if(t==0) break;
-        int count=0;
+        int ct=0;
         while(1){
             int n,flag = 0;
             int a[t+5];
@@ -12,10 +12,10 @@ int main(){
                 cin >> a[i];
                 if(a[i]!=i) flag = 1;
             }
-            count++;
+            ct++;
             if(flag==0) break;
 
         }
-        cout << count << endl;
+        cout << ct << endl;
     }
 }
